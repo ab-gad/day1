@@ -1,29 +1,18 @@
 import './App.css';
+import Head from './compnents/Head';
+import About from './compnents/About';
+import Skills from './compnents/Skills';
+import Portfolio from './compnents/Portfolio';
+import Footer from './compnents/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a className="btn btn-primary"
-             data-bs-toggle="collapse"
-             href="#collapseExample"
-             role="button"
-             aria-expanded="false"
-             aria-controls="collapseExample">
-        Bootstrap button
-        </a>
-      </header>
+      <Head />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Footer />
     </div>
   );
 }
